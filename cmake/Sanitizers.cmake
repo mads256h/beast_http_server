@@ -1,5 +1,5 @@
 function(
-  myproject_enable_sanitizers
+  beast_http_server_enable_sanitizers
   project_name
   ENABLE_SANITIZER_ADDRESS
   ENABLE_SANITIZER_LEAK

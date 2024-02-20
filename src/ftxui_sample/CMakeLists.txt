@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE beast_http_server::beast_http_server_options
+          beast_http_server::beast_http_server_warnings)
 
 target_link_system_libraries(
   intro
