@@ -144,7 +144,10 @@
             "cacheVariables": {
                 "CMAKE_C_COMPILER": "gcc",
                 "CMAKE_CXX_COMPILER": "g++",
-                "CMAKE_BUILD_TYPE": "Debug"
+                "CMAKE_BUILD_TYPE": "Debug",
+                "beast_http_server_ENABLE_HARDENING": "OFF",
+                "beast_http_server_ENABLE_IPO" : "OFF",
+                "beast_http_server_WARNINGS_AS_ERRORS" : "OFF"
             }
         },
         {
@@ -166,7 +169,10 @@
             "cacheVariables": {
                 "CMAKE_C_COMPILER": "clang",
                 "CMAKE_CXX_COMPILER": "clang++",
-                "CMAKE_BUILD_TYPE": "Debug"
+                "CMAKE_BUILD_TYPE": "Debug",
+                "beast_http_server_ENABLE_HARDENING": "OFF",
+                "beast_http_server_ENABLE_IPO" : "OFF",
+                "beast_http_server_WARNINGS_AS_ERRORS" : "OFF"
             }
         },
         {

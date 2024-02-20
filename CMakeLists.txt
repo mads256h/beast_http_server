@@ -32,6 +32,7 @@ beast_http_server_global_options()
 include(Dependencies.cmake)
 beast_http_server_setup_dependencies()
 
+
 beast_http_server_local_options()
 
 # don't know if this should be set globally from here or not...
@@ -104,7 +105,7 @@ include(cmake/PackageProject.cmake)
 # we know we want to ship
 beast_http_server_package_project(
   TARGETS
-  intro
+  http_server
   beast_http_server_options
   beast_http_server_warnings
   # FIXME: this does not work! CK
